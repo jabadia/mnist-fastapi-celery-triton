@@ -45,7 +45,7 @@ def get_dataloaders(
     # set dataset loaders
     transform_train = get_preprocessor_train()
     transform_test = get_preprocessor_test()
-    data_path = "../../data"
+    data_path = "../data"
     dataset1 = datasets.MNIST(
         data_path, train=True, download=True, transform=transform_train
     )
