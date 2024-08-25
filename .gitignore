@@ -133,3 +133,6 @@ dmypy.json
 *.rdb
 NULL
 *.pt
+
+
+.idea
