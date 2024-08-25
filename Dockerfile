@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.5.1-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
 
 ENV PATH="/root/miniconda3/bin:${PATH}"
 ARG PATH="/root/miniconda3/bin:${PATH}"
